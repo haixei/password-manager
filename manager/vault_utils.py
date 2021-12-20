@@ -2,6 +2,8 @@ import itertools
 from cryptography.fernet import Fernet
 from generator import generate
 from termcolor import cprint
+from menu import create_menu
+from xkcdpass import xkcd_password as xp
 import hashlib
 import cryptography
 import yaml
@@ -69,7 +71,26 @@ def create_new():
 
         # If everything went well, ask for the name of the service and proceed with generating a password for it
         service = f.encrypt(input('What is the name of the service you want to create a password for?: ').encode())
-        password = generate()
+
+        # Ask whether the user wants a random password or a passphrase
+        answer = create_menu('Please choose one of the options.', 'Passphrase is an alternative to a randomly generated'
+                                                                  'password. It can look like this: some-random-words,'
+                                                                  ' and is easier to remember so it can be easily used'
+                                                                  'when you do not have a password manager by'
+                                                                  'your hand.',
+                             ['I want a randomly generated password', 'I want a passphrase'])
+
+        if answer == 1:
+            # Generate a random password
+            password = generate()
+        else:
+            # Set up the xkcdpass
+            wordfile = xp.locate_wordfile()
+            mywords = xp.generate_wordlist(wordfile=wordfile, max_length=6)
+            # Generate a passphrase
+            password = xp.generate_xkcdpassword(mywords, delimiter='-', numwords=5)
+
+        # Encrypt the password and save to the vault
         password_encrypted = f.encrypt(password.encode())
         cur_vault.update({service: password_encrypted})
         cprint('We saved your newly generated password: ' + password, 'green')
