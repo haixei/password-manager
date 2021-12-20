@@ -54,9 +54,9 @@ The algorithm is good and pretty much the standard but when it comes to password
 
 #### In practice:
 
-- Examples of use:
+- *Examples of use:*
   - [Bcrypt with Python]()
-- Hashing algorithms:
+- *Hashing algorithms:*
   - [Cryptography: Hash functions](https://www.youtube.com/watch?v=KqqOXndnvic) by MIT
   - [SHA - Secure Hashing Algorithm](https://www.youtube.com/watch?v=DMtFhACPnTY&t=1s) by Computerphile
   - [Hashing algorithms and security](https://www.youtube.com/watch?v=b4b8ktEV4Bg) by Computerphile
