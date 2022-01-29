@@ -1,4 +1,5 @@
-[![img](https://camo.githubusercontent.com/1cfcebde3a31f8382e5f101f6ad44e66493bb310b82a9e3924e573cea81f008b/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5374617475732d496e253230646576656c6f706d656e742d6e617679)](https://camo.githubusercontent.com/1cfcebde3a31f8382e5f101f6ad44e66493bb310b82a9e3924e573cea81f008b/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5374617475732d496e253230646576656c6f706d656e742d6e617679) [![img](https://camo.githubusercontent.com/2f2ad09a6673cf54165550baf37559c3bbe482f8bdf213a1f937af6a8c278295/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4d49542d253233663365336666)](https://camo.githubusercontent.com/2f2ad09a6673cf54165550baf37559c3bbe482f8bdf213a1f937af6a8c278295/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4d49542d253233663365336666)
+![License: MIT](https://img.shields.io/badge/License-MIT-%23E6F0FD)
+![Status: Finished](https://img.shields.io/badge/Status-Finished-%235d6d91)
 
 
 
@@ -38,7 +39,7 @@ At the very beginning of making this project, I was confused about a lot of thin
 
 
 
-![Comparison](https://images.surferseo.art/f24602b1-6577-479b-85b5-b9c17b658f1a.png)
+![Comparison](https://imgur.com/KWkdqPa.png)
 
 
 
