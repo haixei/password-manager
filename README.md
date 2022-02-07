@@ -97,6 +97,5 @@ For this project I focused on following official NIST guidelines on creating pas
 ## Additional Resources
 
 - [Cryptography I by Stanford University](https://www.coursera.org/learn/crypto#syllabus)
-
 - [NIST on Cryptography](https://www.nist.gov/cryptography)
 
