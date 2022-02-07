@@ -38,9 +38,11 @@ This project is a password manager that was created to showcase the use of encry
 At the very beginning of making this project, I was confused about a lot of things related to password security. Not only by my own misunderstanding of the topic but also some weird explanations of them I got from people I know. Let's start from the square one and up the ladder of security, we start at storing credentials as plain text - do not do it. It's the worst thing you can do, security is compromised every time someone has a look at them and that can happen in many ways. Now that being said, let's move towards two ways in which you can secure data: encryption and hashing. The amount of people that I've encountered who don't understand the distinction is concerning so in the two following sections I will explain how they work.
 
 
+<br>
 
-![Comparison](https://imgur.com/KWkdqPa.png)
+![Comparison](https://imgur.com/5qrpodC.png)
 
+<br>
 
 
 ### Hashing
