@@ -40,7 +40,14 @@ At the very beginning of making this project, I was confused about a lot of thin
 
 <br>
 
-![Comparison](https://imgur.com/5qrpodC.png)
+| Encryption                                                    | Hashing                                                             |
+|---------------------------------------------------------------|---------------------------------------------------------------------|
+| Encryption is a reversible, bi-directional funciton.          | Hashing is irreversible and unidirectional.                         |
+| The original message can be retrieved using a decryption key. | The original message cannot be retrieved.                           |
+| The resultant encrypted string is of variable length.         | The resultant hash is of fixed length.                              |
+| Purpose of encryption is to ensure data confidentiality.      | Purpose of hashing is to ensure data integrity.                     |
+| Encryption is used to keep data secret from others.           | Hashing is used for indexing, data retrieval and storing passwords. |
+| Encryption is accomplished with the use of keys.              | The is no use for keys in hashing.                                  |
 
 <br>
 
