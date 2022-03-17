@@ -85,15 +85,7 @@ There is plenty of different technologies to choose from nowadays and I'd also l
 
 Blowfish is an another symmetric-key algorithm that I already mentioned once already under the hashing part of the document. Alongside AES, it was one of the algorithms made to replace 3DES. It breaks down data into 64-bit blocks and encrypts them individually. Blowfish was a predecessor to Twofish, Bruce Schneier's entry into the competition that produced AES. 
 
-Assymetric-key algorithms like RSA (Rivest–Shamir–Adleman, named after its creators) are used for secure data transmissions and use two keys, a public and a private one, to encrypt and decrypt information.
-
-
-
-![](https://twilio-cms-prod.s3.amazonaws.com/original_images/19DfiKodi3T25Xz7g9EDTyvF9di2SzvJo6JebRJaCN-1P_c1fMqGtrAyZzxGGucG0bcmR8UwNes-gS)
-
-
-
-Many protocols like TLS or SSL rely on asymmetric cryptography. It is popular anywhere where a secure connection needs to be established like web browsers or in software that needs to validate a digital signature. For the purpose of the project this kind of technology is not needed but I still wanted to mention it.
+Assymetric-key algorithms like RSA (Rivest–Shamir–Adleman, named after its creators) are used for secure data transmissions and use two keys, a public and a private one, to encrypt and decrypt information. Many protocols like TLS or SSL rely on asymmetric cryptography. It is popular anywhere where a secure connection needs to be established like web browsers or in software that needs to validate a digital signature. For the purpose of the project this kind of technology is not needed but I still wanted to mention it.
 
 
 
